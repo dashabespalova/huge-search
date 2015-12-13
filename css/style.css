@@ -1,0 +1,146 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body {
+	min-height:100%;
+}
+
+html {
+	height:100%;
+}
+
+body {
+	background: #F1F1F1;
+	color:#C2C2C2;
+}
+
+form {
+	position: relative;
+	padding:0 10.5%;
+	height:160px;
+	margin:30px auto;
+}
+
+
+.ba-hugesearch-input {
+	font:700 100px Arial, sans-serif;
+	background:#F1F1F1;
+	border:none;
+	padding: 0;
+	max-width:90%;
+	height:100%;
+	color:#ec5a62;
+}
+
+::-webkit-input-placeholder {background:#F1F1F1;}
+::-moz-placeholder          {background:#F1F1F1;}/* Firefox 19+ */
+:-moz-placeholder           {background:#F1F1F1;}/* Firefox 18- */
+:-ms-input-placeholder      {background:#F1F1F1;}
+
+
+.ba-hugesearch-input:focus {
+	outline:none;
+}
+
+input[type="search"] {
+	-webkit-appearance: textfield;
+	box-sizing:border-box;
+}
+
+
+.ba-hugesearch-submit {
+	position: absolute;
+	width:80px;
+	height:80px;
+	text-indent: 100px;
+	overflow: hidden;
+	right:10%;
+	top:25%;
+	background:url(../img/magnifier.svg) no-repeat center center;
+	background-size:100%;
+	border:none;
+}
+
+.ba-hugesearch-submit:focus {
+	outline:none;
+}
+
+.ba-hugesearch-content {
+	margin:0 auto;
+	padding:0 10.5%;
+	font-size: 0;
+}
+
+.ba-hugesearch-list {
+	padding: 0;
+	margin:0;
+}
+.ba-column {
+	margin-right:5%;
+	display: inline-block;
+	width:30%;
+
+}
+aside:last-of-type {
+	margin-right:0;
+}
+
+.ba-column h2 {
+	text-transform:uppercase;
+	font-size: 18px;
+	font-weight: 800;
+	padding: 10px 0;
+}
+
+a {
+	display:block;
+	cursor:pointer;
+	padding:10px;
+	border-radius:5px;
+}
+li {
+	display: list-item;
+	list-style-type: none;
+	background:rgba(118,117,128,0.05);
+    border-radius:5px;
+	margin-bottom:5px;
+
+}
+
+aside:first-of-type .ba-circle {
+	border-radius:50%;
+}
+
+a img {
+	display: inline-block;
+	width: 50px;
+	vertical-align: middle;
+	margin:0 10px 0 0;
+}
+
+
+
+h3 {
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: 700;
+	margin:0;
+	width:60%;
+	color:#C2C2C2;
+	font-size:12px;
+
+}
+
+a:hover {
+	background:rgba(118,117,128,0.1);
+	color:#ec5a62;
+}
+
+h3:hover {
+    color:#ec5a62;
+}
+
+
