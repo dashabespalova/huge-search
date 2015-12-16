@@ -77,44 +77,45 @@ input[type="search"] {
 .ba-hugesearch-list {
 	padding: 0;
 	margin:0;
+	list-style: none;
 }
 .ba-column {
 	margin-right:5%;
 	display: inline-block;
 	width:30%;
-
+	vertical-align:top;
 }
-aside:last-of-type {
+.ba-column:last-of-type {
 	margin-right:0;
 }
 
 .ba-column h2 {
 	text-transform:uppercase;
+	letter-spacing:1px;
 	font-size: 18px;
 	font-weight: 800;
 	padding: 10px 0;
 }
 
-a {
+.ba-hugesearch-list a {
 	display:block;
 	cursor:pointer;
 	padding:10px;
 	border-radius:5px;
 }
-li {
+.ba-hugesearch-list li {
 	display: list-item;
-	list-style-type: none;
-	background:rgba(118,117,128,0.05);
-    border-radius:5px;
-	margin-bottom:5px;
 
+	background:rgba(118,117,128,0.05);
+	border-radius:5px;
+	margin-bottom:5px;
 }
 
-aside:first-of-type .ba-circle {
+.ba-circle {
 	border-radius:50%;
 }
 
-a img {
+.ba-hugesearch-list a img {
 	display: inline-block;
 	width: 50px;
 	vertical-align: middle;
@@ -123,24 +124,22 @@ a img {
 
 
 
-h3 {
+.ba-hugesearch-list a h3 {
 	display: inline-block;
 	vertical-align: middle;
 	font-weight: 700;
 	margin:0;
-	width:60%;
+	width:calc(100% - 70px);
 	color:#C2C2C2;
 	font-size:12px;
-
 }
 
-a:hover {
+.ba-hugesearch-list a:hover {
 	background:rgba(118,117,128,0.1);
-	color:#ec5a62;
 }
 
-h3:hover {
-    color:#ec5a62;
+.ba-hugesearch-list a:hover h3{
+	color:#ec5a62;
 }
 
 
